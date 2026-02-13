@@ -95,6 +95,8 @@ Converts a string (Hebrew, English, or mixed) into a URL-safe slug.
 
 ### Other projects by [@ofershap](https://github.com/ofershap)
 
-- [`ts-nano-event`](https://github.com/ofershap/ts-nano-event) — Typed event emitter in <200 bytes
+- [`ts-nano-event`](https://github.com/ofershap/ts-nano-event) — Typed event emitter in ~200 bytes
+- [`use-stepper`](https://github.com/ofershap/use-stepper) — React hook for multi-step forms and wizards
 - [`env-guard`](https://github.com/ofershap/env-guard) — Validate .env files against a schema
+- [`ai-commit-msg`](https://github.com/ofershap/ai-commit-msg) — GitHub Action for AI commit messages
 - [`awesome-hebrew-dev`](https://github.com/ofershap/awesome-hebrew-dev) — Curated list of Hebrew developer resources
