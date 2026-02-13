@@ -9,6 +9,15 @@
 >
 > הפיכת טקסט עברי ל-slug עבור כתובות URL — תעתיק + יצירת slug. ללא תלויות.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="hebrew-slugify demo" width="600" />
+</p>
+
+
+<p align="center">
+  <img src="assets/demo.gif" alt="hebrew-slugify demo" width="600" />
+</p>
+
 ## Install
 
 ```bash
