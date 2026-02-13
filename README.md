@@ -1,12 +1,20 @@
 # hebrew-slugify
 
 [![npm version](https://img.shields.io/npm/v/hebrew-slugify.svg)](https://www.npmjs.com/package/hebrew-slugify)
+[![npm downloads](https://img.shields.io/npm/dm/hebrew-slugify.svg)](https://www.npmjs.com/package/hebrew-slugify)
 [![CI](https://github.com/ofershap/hebrew-slugify/actions/workflows/ci.yml/badge.svg)](https://github.com/ofershap/hebrew-slugify/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://github.com/ofershap/hebrew-slugify)
 
-> Slugify Hebrew text for URLs — transliteration + slug generation. Zero dependencies.
->
+Turn Hebrew text into clean, URL-safe slugs — with transliteration, niqqud stripping, and mixed-language support.
+
+```ts
+hebrewSlugify("שלום עולם")        // → "shlvm-avlm"
+hebrewSlugify("פוסט 42 בבלוג")    // → "pvst-42-bblvg"
+hebrewSlugify("שלום Hello World") // → "shlvm-hello-world"
+```
+
 > הפיכת טקסט עברי ל-slug עבור כתובות URL — תעתיק + יצירת slug. ללא תלויות.
 
 ![Demo](assets/demo.gif)
@@ -93,12 +101,3 @@ Converts a string (Hebrew, English, or mixed) into a URL-safe slug.
 
 [MIT](LICENSE) &copy; [Ofer Shapira](https://github.com/ofershap)
 
----
-
-### Other projects by [@ofershap](https://github.com/ofershap)
-
-- [`ts-nano-event`](https://github.com/ofershap/ts-nano-event) — Typed event emitter in ~200 bytes
-- [`use-stepper`](https://github.com/ofershap/use-stepper) — React hook for multi-step forms and wizards
-- [`env-guard`](https://github.com/ofershap/env-guard) — Validate .env files against a schema
-- [`ai-commit-msg`](https://github.com/ofershap/ai-commit-msg) — GitHub Action for AI commit messages
-- [`awesome-hebrew-dev`](https://github.com/ofershap/awesome-hebrew-dev) — Curated list of Hebrew developer resources
