@@ -31,7 +31,7 @@ const HEBREW_MAP: Record<string, string> = {
 const NIQQUD_RANGE_START = 0x0591;
 const NIQQUD_RANGE_END = 0x05c7;
 
-interface SlugifyOptions {
+export interface SlugifyOptions {
   separator?: string;
   lowercase?: boolean;
   transliterate?: boolean;
