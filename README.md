@@ -10,9 +10,9 @@
 Turn Hebrew text into clean, URL-safe slugs — with transliteration, niqqud stripping, and mixed-language support.
 
 ```ts
-hebrewSlugify("שלום עולם")        // → "shlvm-avlm"
-hebrewSlugify("פוסט 42 בבלוג")    // → "pvst-42-bblvg"
-hebrewSlugify("שלום Hello World") // → "shlvm-hello-world"
+hebrewSlugify("שלום עולם"); // → "shlvm-avlm"
+hebrewSlugify("פוסט 42 בבלוג"); // → "pvst-42-bblvg"
+hebrewSlugify("שלום Hello World"); // → "shlvm-hello-world"
 ```
 
 > הפיכת טקסט עברי ל-slug עבור כתובות URL — תעתיק + יצירת slug. ללא תלויות.
@@ -97,7 +97,10 @@ hebrewSlugify("שלום עולם", { transliterate: false });
 
 Converts a string (Hebrew, English, or mixed) into a URL-safe slug.
 
+## Looking for a WordPress plugin?
+
+This library is also available as a WordPress plugin: [**hebrew-slugify-wp**](https://github.com/ofershap/hebrew-slugify-wp) — same transliteration logic, auto-applied to post/page slugs. Works with Gutenberg, Elementor, WooCommerce.
+
 ## License
 
 [MIT](LICENSE) &copy; [Ofer Shapira](https://github.com/ofershap)
-
