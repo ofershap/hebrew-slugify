@@ -1,6 +1,6 @@
 {
   "name": "hebrew-slugify",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Slugify Hebrew text for URLs — transliteration + slug generation",
   "type": "module",
   "exports": {
