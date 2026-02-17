@@ -101,6 +101,13 @@ Converts a string (Hebrew, English, or mixed) into a URL-safe slug.
 
 This library is also available as a WordPress plugin: [**hebrew-slugify-wp**](https://github.com/ofershap/hebrew-slugify-wp) — same transliteration logic, auto-applied to post/page slugs. Works with Gutenberg, Elementor, WooCommerce.
 
+## Author
+
+**Ofer Shapira**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ofershap)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/ofershap)
+
 ## License
 
 [MIT](LICENSE) &copy; [Ofer Shapira](https://github.com/ofershap)
