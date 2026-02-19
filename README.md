@@ -1,4 +1,4 @@
-# hebrew-slugify
+# hebrew-slugify — Hebrew Text to URL-Safe Slug Transliteration
 
 [![npm version](https://img.shields.io/npm/v/hebrew-slugify.svg)](https://www.npmjs.com/package/hebrew-slugify)
 [![npm downloads](https://img.shields.io/npm/dm/hebrew-slugify.svg)](https://www.npmjs.com/package/hebrew-slugify)
@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://github.com/ofershap/hebrew-slugify)
 
-Turn Hebrew text into clean, URL-safe slugs — with transliteration, niqqud stripping, and mixed-language support.
+Turn Hebrew text into clean, URL-safe slugs — with transliteration, niqqud stripping, and mixed Hebrew-English support. Zero dependencies, TypeScript.
 
 ```ts
 hebrewSlugify("שלום עולם"); // → "shlvm-avlm"
@@ -17,7 +17,7 @@ hebrewSlugify("שלום Hello World"); // → "shlvm-hello-world"
 
 > הפיכת טקסט עברי ל-slug עבור כתובות URL — תעתיק + יצירת slug. ללא תלויות.
 
-![Demo](assets/demo.gif)
+![hebrew-slugify demo — transliterating Hebrew text to URL-safe slugs](assets/demo.gif)
 
 ## Install
 
